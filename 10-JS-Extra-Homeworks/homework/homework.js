@@ -22,7 +22,27 @@ function numberOfCharacters(string) {
   //en formato par clave-valor.
   //Ej: Recibe ---> "adsjfdsfsfjsdjfhacabcsbajda" || Devuelve ---> { a: 5, b: 2, c: 2, d: 4, f: 4, h:1, j: 4, s: 5 }
   //Escribe tu código aquí
+  obj = {}
+  let arr = string.split('')
+  //Primer for loop 
+  for (i = 0; i <= arr.length - 1; i++) {
+    let contador = 0
+    //Segundo for loop
+    for (x = 0; x <= arr.length - 1; x++) {
+      //Encontrar elemento repetido
+      if (arr[i] === arr[x]) {
+        //Sumando la vez repetida a un contador
+        contador++
+        //Asignando a la variable obj el elemento y contador
+      }
+    }
+    if (i === arr.indexOf(arr[i])) {
 
+      obj[arr[i]] = contador;
+    }
+  }
+
+  return obj
 }
 
 function capToFront(s) {
@@ -30,6 +50,26 @@ function capToFront(s) {
   //al principio de la palabra.
   //Ejemplo: soyHENRY -> HENRYsoy
   //Escribe tu código aquí
+  let arr = []
+  let string = ''
+
+  for (i = s.length - 1; i >= 0; i--) {
+    if (s[i] === s[i].toUpperCase()) {
+      arr.unshift(s[i])
+    }
+  }
+
+  for (i = 0; i <= s.length - 1; i++) {
+    if (s[i] === s[i].toLowerCase()) {
+      arr.push(s[i])
+    }
+  }
+
+  for (let item of arr) {
+    string += item
+  }
+
+  return string
 }
 
 function asAmirror(str) {
