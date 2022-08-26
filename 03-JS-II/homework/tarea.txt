@@ -1,0 +1,9 @@
+El bucle for te ayuda a iterar sobre los elementos que vos quieras. Primero definimos la variable 
+
+let i = 0 , luego le pasamos una condición para que el interprete sepa hasta que punto iterar, y por último incrementamos la variable o decrementamos la variable para que avance o retroceda la iteración
+
+&& y || son operadores lógicos, que sirven para evaluar dos o más expresiones.
+
+&& evalúa que las dos expresiones sean verdaderas, si es así devuelve true, de lo contrario devuelve false. Basta con que la primera expresión sea false para que se detenga la evaluación y retorne false
+
+| | evalúa que alguna de las dos expresiones sea verdadera, si es así devuelve true, de lo contrario devuelve false. Basta con que la primera expresión sea true para que se detenga y retorne true.

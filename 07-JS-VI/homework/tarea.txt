@@ -1,0 +1,1 @@
+Se le llama Funciones Callback a las capacidad de pasar una función como argumento dentro de un función

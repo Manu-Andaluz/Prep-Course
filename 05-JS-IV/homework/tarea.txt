@@ -1,0 +1,7 @@
+Los objetos son colecciones de propiedades, las propiedades son asociaciones entre una clave y un valor.
+
+Los métodos son funciones de las propiedades de objeto
+
+El bucle for in te ayuda a recorrer las claves y los valores de un objecto.
+
+La notación de puntos nos permite acceder más rápido a las propiedades de los objectos, mientras que la notación de corchetes nos permite acceder a las propiedades usando variables o a propiedades que contienen caracteres especiales
